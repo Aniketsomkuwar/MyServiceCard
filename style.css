@@ -170,12 +170,12 @@ h6{
 /* Responsive Card */
 
 @media (max-width: 800px) {
-    section::before , section::after{
-        display: none;
+    section::before {
+        /* display: none; */
     }
     
-    /* section::after{
+    section::after{
         display: none;
-    } */
+    }
   }
   
