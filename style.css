@@ -124,7 +124,7 @@ h6{
 .card.back-face{
     border: none;
     padding: 15px 25px 25px 25px;
-
+    
     transform: rotateY(180deg);
 }
 
