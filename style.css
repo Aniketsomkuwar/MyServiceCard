@@ -124,7 +124,7 @@ h6{
 .card.back-face{
     border: none;
     padding: 15px 25px 25px 25px;
-    
+
     transform: rotateY(180deg);
 }
 
@@ -175,7 +175,13 @@ h6{
     }
     
     section::after{
-        display: none;
+        /* display: none; */
     }
+  }
+  @media (max-width: 400px) {
+    .card.back-face h6{
+        font-size: 11px;
+    }
+  
   }
   
